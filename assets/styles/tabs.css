@@ -6,7 +6,7 @@
 }
 .tabs {
     max-width: calc(1170px + 15px*2);
-    padding: 0 15px;
+    padding: 63px 15px 0 15px;
     margin: 10px auto;
 }
 .tabs__menu--btn--active {

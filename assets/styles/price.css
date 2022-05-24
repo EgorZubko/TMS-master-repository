@@ -1,14 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
     
 }
 
 .price {
-    max-width: calc(1170 + 15 *2);
+    max-width: calc(1170 + 15px * 2);
     height: 900px;
-    padding: 0 15px;
+    padding: 104px 0 64px 0px;;
     margin: 0 auto;
     background-color: #F5F5F5;
 }
@@ -21,15 +21,15 @@
 }
 
 .price__title {
-
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 28px;
     text-align: center;
     text-transform: uppercase; 
-    margin: 107px  93px ;
+    
     
    
 }
@@ -37,7 +37,7 @@
 .price__line {
     width: 170px;
     border: 1px solid #EC7979;
-    margin: 0 400px 40px 600px;
+    margin: 54px auto 0;
 }
 
 .price__subtitle {

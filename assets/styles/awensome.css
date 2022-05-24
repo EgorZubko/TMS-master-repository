@@ -6,13 +6,13 @@
 
 
 .awesome__about {
-    max-width: calc(1170px + 15px*2);
-    padding: 0 15px;
+    max-width: calc(1170px + 15px * 2);
+    padding: 100px 0 0 15px;
     margin: 0 auto;
 }
 
 .awesome__title {
-    margin: 54px 0;
+    margin: 0 auto;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -25,7 +25,7 @@
 .line {
     border-bottom: 1px solid #EC7979;
     width: 170px;
-   margin: 0 500px 40px 500px;
+    margin: 0 auto;
 
 }
 
@@ -37,6 +37,7 @@
     line-height: 21px;
     text-align: center; 
     color: #86878B; 
+    margin: 32px 0;
 }
 
 .awesome__section {
@@ -67,7 +68,7 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 21px;
     display: flex;
     align-items: center;

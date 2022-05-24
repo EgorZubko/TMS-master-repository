@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviews {
+    padding: 104px 0 64px 0px;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: calc(1170px + 15px *2);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.reviews__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 54px auto 0;
+}
+
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #86878B;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.reviews__customers {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.reviews__wrapper {
+    width: 317px;
+    
+}
+
+.reviews__coment {
+    background: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+    position: relative;
+}
+
+.reviews__coment__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #86878B;
+    
+}
+
+.reviews__coment__triangle {
+    position: absolute;
+    top: 100%;
+    left: 50px;
+}
+
+.reviews__coment__info {
+    margin: 46px 0;
+    display: flex;
+}
+
+.reviews__coment__manager {
+    margin: 0 0 0 30px;
+}
+
+.title__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+.reviews__coment__position {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 12px 0;
+}

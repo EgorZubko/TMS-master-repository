@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.baner__box {
+    max-width: calc(1170px + 15px * 2);
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 .baner {
     padding: 104px 0 50px;
     background-image: url(../img/baner/image.png);
     background-position: top center;
     background-size: cover;
     position: relative;
+ 
     
    
 }
@@ -22,24 +29,22 @@
     top: 0;
     left: 0;
     z-index: 2;
+
+   
 }
 .baner__info {
-    max-width: calc(1170px + 15px * 2);
-    padding: 0 15px;
-    margin: 0 auto;
+    
     position: relative;
     z-index: 15;
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 .baner__logo {
     width: 270px;
     height: 100px;
 }
-.baner__title {
+.title {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -75,6 +80,76 @@
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
-    margin: 42px 1070px 85px 0;
+    margin: 42px 0px 85px 0;
 
+}
+
+.baner__form {
+    width: 470px;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 15;
+ 
+}
+
+
+.baner__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.red__word {
+    color: #EC7979;
+}
+
+
+
+.baner__input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.form__user {
+    width: 370px;
+    height: 38px;
+    margin: 45px 50px 33px 50px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+
+}
+.form__btn {
+    width: 100%;
+    height: 60px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    margin: 75px 0 0 0;
+}
+
+.form__user::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    
 }

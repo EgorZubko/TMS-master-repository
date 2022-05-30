@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact {
+    max-width: calc(1170px + 15px *2);
+    margin: 0 auto;
+
+}
+.contact__us {
+
+}
+.contact__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 104px 0 64px 0px;
+}
+
+.contact__line {
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 0 auto;
+}
+.contact__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: 40px 0;
+}
+.contact__about {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin: 50px auto;
+    
+}
+
+.contact__user {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 38px;
+    margin: 50px 0 16px 0;
+}
+.contact__user::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin: 0 0 16px 0;
+}
+.contact__user__massage {
+    width: 570px;
+    height: 250px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin: 95px 0 0 0;
+}
+.contact__user__massage::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+}
+
+.contact__form {
+    display: flex;
+}
+
+.contact__btn {
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 50px 400px;
+    color: #FFFFFF;
+    border: none;
+    
+}

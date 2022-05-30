@@ -8,7 +8,7 @@
 .price {
     max-width: calc(1170 + 15px * 2);
     height: 900px;
-    padding: 104px 0 64px 0px;;
+    padding: 104px 0 64px 0px;
     margin: 0 auto;
     background-color: #F5F5F5;
 }

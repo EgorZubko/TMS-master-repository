@@ -151,5 +151,36 @@
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
+}
+.footer {
+    background-color: #000000;
+    padding: 40px 0 27px;
+    width: 100%;
+}
+
+
+
+.footer__icon {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__list {
+    width: 570px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 32px 170px 27px 170px;
     
 }

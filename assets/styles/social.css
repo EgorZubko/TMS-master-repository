@@ -41,3 +41,22 @@
     align-items: center;
     
 }
+
+@media (max-width:1024px) {
+    .social__title {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 13px;
+    }
+    .social__text {
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 13px;
+    }
+    .social__icons > svg {
+        width: 41px;
+        height: 40px;
+        
+
+    }
+}

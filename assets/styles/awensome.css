@@ -23,9 +23,9 @@
 }
 
 .line {
-    border-bottom: 1px solid #EC7979;
     width: 170px;
-    margin: 0 auto;
+    border: 1px solid #EC7979;
+    margin: 54px auto 0;
 
 }
 
@@ -73,4 +73,35 @@
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+@media (max-width:1024px) {
+    .awesome__about {
+        max-width: calc(1024px + 15px * 2);
+    }
+    .awesome__title {
+        font-size: 24px;
+    line-height: 28px;
+
+    }
+    .awesome__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .awesome__section > img {
+        width: 79px;
+        height: 79px;
+    }
+    .awesome__section {
+        width: 317px;
+    }
+    .benefits__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .awesome__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
 }
